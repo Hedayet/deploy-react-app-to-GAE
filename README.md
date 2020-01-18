@@ -11,3 +11,7 @@ A script I run to build an optimised deployable for my react app and to deploy i
 * run `npm i` to install node modules
 * run `build.sh`
 * profit
+
+# Server and the app.yaml for GAE
+* Please find the files in `/node` directory
+ 
