@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# dependency lock files
+package-lock.json
+yarn.lock
+
 # testing
 /coverage
 
@@ -12,7 +16,6 @@
 /build
 
 /deployables
-package-lock.json
 
 # misc
 .DS_Store
