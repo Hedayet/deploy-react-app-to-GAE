@@ -1,15 +1,13 @@
 import React from 'react';
-// import logo from './logo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Hello on the test site.
-        </p>
+        <img src="https://storage.googleapis.com/taman-test-1-bucket/build/static/images/logo.png"
+          className="App-logo" alt="logo"
+        />
         <a
           className="App-link"
           href="https://github.com/Hedayet/deploy-react-app-to-GAE"

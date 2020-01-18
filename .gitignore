@@ -11,10 +11,8 @@
 # production
 /build
 
-# local
-/backup
-
-/deployable
+/deployables
+package-lock.json
 
 # misc
 .DS_Store

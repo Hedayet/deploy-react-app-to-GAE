@@ -22,12 +22,11 @@ function serveBaseHTML (req, resp) {
         }
         const title =  'Test Website';
         const description = 'This is a test web app to try out GCE deployment';
-        // TODO(Taman): Add url later
-        const img_url = "SOME_URL_LATER_TO_BE_ADDED";
+        const img_url = "https://storage.googleapis.com/taman-test-1-bucket/build/static/images/logo.png";
         data = data.replace(/\$OG_URL/g, req.protocol + '://' + req.get('host') + req.originalUrl);
         data = data.replace(/\$OG_TITLE/g, title);
         data = data.replace(/\$OG_DESCRIPTION/g, description);
-        // const result = data.replace(/\$OG_IMAGE/g, img_url);
+        const result = data.replace(/\$OG_IMAGE/g, img_url);
         resp.send(result);
     });
 }

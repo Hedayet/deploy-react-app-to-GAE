@@ -3,12 +3,12 @@
   "name": "Test React deployment on GCE",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://storage.googleapis.com/taman-test-1-bucket/build/static/images/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
+      "src": "https://storage.googleapis.com/taman-test-1-bucket/build/static/images/logo.png",
       "type": "image/png"
     }
   ],
