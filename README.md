@@ -1,5 +1,9 @@
 # deploy-react-app-to-GAE
-A script I run to build an optimised deployable for my react app and to deploy it on GAE
+A script I run to build an optimised deployable for my react apps and to deploy them on GAE
+
+Context:
+* The React app was created with the `create-react-app` tool
+* The server and the `app.yaml` files are in `/node` directory
 
 # Setup
 * You need to have,
@@ -11,7 +15,3 @@ A script I run to build an optimised deployable for my react app and to deploy i
 * run `npm i` to install node modules
 * run `build.sh`
 * profit
-
-# Server and the app.yaml for GAE
-* Please find the files in `/node` directory
- 
